@@ -1,0 +1,12 @@
+OBJETIVO DA AULA
+-Introduzir os principais operadores para manipular valores no seu código.
+
+OPERADORES
+-Tipos de Operadores: são sinais utilizados para manipular certos valores e/ou validar uma condição.
+-Sendo eles: 
+>Aritmética
+>Atribuição 
+>Comparação
+>Lógica
+>Condicional
+OBS: Condicional Ternário

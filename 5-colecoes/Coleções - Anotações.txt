@@ -1,0 +1,29 @@
+###COLEÇÕES CHAVEADAS
+
+MAP
+
+ESTRUTURA
+-Uma coleção de arrays no formato [chave, valor]
+-Pode ser iterado por um loop for...of
+-Declara como "new Map ()"
+
+MÉTODOS
+-adicionar, ler e deletar
+- my Map.set, .get, .delete
+
+MAP VS OBJETOS
+-Maps podem ter chave de qualquer tipo 
+-Maps possuem a propriedade length
+-Maps são mais fáceis de iterar
+-Utilizado quando o valor das chaves é desconhecido
+-Os valores tem o mesmo tipo
+
+SET
+
+ESTRUTURA
+-Armazenam valores únicos (não se repetem)
+
+SET VS ARRAY
+-Possuem valores únicos
+-Em vez da propriedade length, consulta-se o número de registros pela propriedade size
+-Não possui métodos map, filter, reduce, etc.

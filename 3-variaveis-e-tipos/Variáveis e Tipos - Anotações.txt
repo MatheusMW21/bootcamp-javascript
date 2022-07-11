@@ -1,0 +1,61 @@
+VARIÁVEIS E TIPOS
+-Explicar as principais estruturas de dados do Javascript, como utilizá-las e suas possibilidades.
+
+VARIÁVEIS
+-Camel Case: "someAwesomeVar"
+-Upper Case Snake Case: "SOME_AWESOME_VAR" > usado comumente em constantes.
+
+VAR E LET
+-Usado para declarar variáveis dinâmicas
+-O var é um escopo global, ele sempre vai valer no código
+-O let é um escopo de bloco, ou seja, ele será válido por blocos
+-Hoisting > atribuir valor a variável antes de declará~la
+-Redeclaração > acontece somente com o var
+-Reatribuição > acontece com o var e o let
+
+CONSTANTES
+-Declarada em SNAKE_UPPER_CASE
+-Escopo de bloco
+-Não faz hoisting
+
+TIPOS
+-Objetivo
+>Apresentar as principais estruturas de dados do Javascript e seus principais métodos
+
+ESTRUTURAS DE DADOS
+-Javascript é uma linguagem de tipagem dinâmica fraca.
+-Ou seja, antes de declarar um valor, você não especifica o tipo dele
+-São divididos em 2 grandes grupos: Primitivos (sem métodos) e Compostos (objetos e arrays)
+
+STRINGS
+-São textos
+-São valores declarados entre aspas ou crases
+EX: `$ {nome} ${sobrenome}` (string concatenada)
+
+NUMBERS
+-Inteiros ou decimais
+-No console há várias funções
+
+BOOLEANS
+-Retorna "true" ou "false"
+-Retorna valores condicionais
+
+ARRAYS
+-Lista iterável de elementos
+-Também chamado de vetores
+
+OBJETOS
+-Tem essa estrutura tipo "chave e valor"
+	
+	let person = {
+Chaves  <	name: 'Matt', > Valores
+	age: 18
+	};
+
+NULL VS UNDEFINED VS EMPTY
+-Null é usado para explicitar a definição de "nada"
+EX: var foo = null
+-Undefined acontece quando não atribui valores a atribuição
+EX: var foo // undefined
+-Empty é uma maneira explícita de definir uma string vazia
+EX: var foo: " ";

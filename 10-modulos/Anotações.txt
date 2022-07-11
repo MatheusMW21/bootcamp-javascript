@@ -1,0 +1,21 @@
+MÓDULOS EM JAVASCRIPT
+
+O QUE SÃO MÓDULOS?
+-Módulos são arquivos Javascript que tem a capacidade de exportar e importar informações de outros arquivos do mesmo tipo 
+
+VANTAGENS
+-Organização do código;
+-Compartilhamento de variáveos em escopos diferentes
+-Explicita as dependências dos arquivos
+
+EXPORTAR
+-Named exports
+-Default exports: 
+->Só pode haver um por arquivo
+->Será o retorno padrão do seu arquivo
+
+IMPORTAR
+-Named exports:
+ import { funcao, variavel, class } from './arquivo.js'
+-Default exports:
+import valorDefault from './arquivo.js'

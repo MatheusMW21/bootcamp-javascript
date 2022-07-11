@@ -1,0 +1,29 @@
+JAVASCRIPT ASSÍNCRONO
+
+DEFINIÇÃO
+-Assíncrono: "Que não ocorre ou não se efetiva ao mesmo tempo."
+-O Javascript roda de maneira assíncrona
+
+PROMISES
+-Objeto de processamento assíncorno
+-Inicialmente, seu valor é desconhecido. Ela pode, então, ser resolvida ou rejeitada
+-3 estados:
+->Pending
+->Fulfulled
+->Rejected
+
+ASYNC/AWAIT
+-Funções assíncronas precisam dessas duas palavras-chaves
+-Funções assíncronas também retornam Promises!
+
+CONSUMINDO API's
+
+O QUE SÃO API's
+-Application Programming Interface
+-Uma API  é o intermediário entre os resultados do back-end e como é aprensentado no front-end
+-Conseguimos acessá-los atráves de URL's
+-JSON: Javascript Object Notation
+-Muito comum que API's retomem seus dados no formato .json
+
+FETCH
+-Operações no banco (POST, GET, PUT, DELETE, etc)
